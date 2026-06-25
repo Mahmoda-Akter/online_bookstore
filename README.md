@@ -46,3 +46,13 @@ Other Tools
 Stripe (Payment System)
 imgBB API (Image Upload)
 Vercel (Deployment)
+
+
+🔐 Authentication System
+Email & password login
+Google OAuth (if enabled)
+JWT-based secure APIs
+Role-based access control:
+User
+Librarian
+Admin
