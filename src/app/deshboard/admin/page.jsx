@@ -68,7 +68,7 @@ const Adminoverviewpage = async () => {
                         Admin Dashboard
                     </h1>
                     <p className="text-gray-500 mt-2">
-                        Monitor users, books, deliveries and revenue.
+                        Monitor users, , deliveries and revenue.
                     </p>
                 </div>
 
