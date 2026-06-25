@@ -28,7 +28,7 @@ const Sallerpage = async () => {
                             📊 Seller Dashboard
                         </h1>
                         <p className="text-gray-500 mt-1">
-                            Manage your books, earnings and performance
+                            Manage your books, earnings and performanc
                         </p>
                     </div>
 
@@ -72,6 +72,7 @@ const Sallerpage = async () => {
                     </div>
 
                     {/* Table */}
+
                     <div className="bg-white rounded-2xl shadow-lg overflow-x-auto border">
 
                         <div className="p-5 border-b bg-gradient-to-r from-blue-500 to-purple-500">
