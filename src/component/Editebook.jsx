@@ -14,6 +14,7 @@ import {
     TextArea
 
 } from "@heroui/react"
+import { toast } from 'react-toastify';
 
 const Editebook = ({ book }) => {
     console.log(book.title, "from edite page")
@@ -42,7 +43,7 @@ const Editebook = ({ book }) => {
         );
 
         if (res.ok) {
-            alert("Updated successfully");
+            toast.success("Updated successfully");
             window.location.reload();
         }
     };

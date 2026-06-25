@@ -2,6 +2,7 @@
 import { authClient } from '@/lib/auth-client';
 import { useRouter } from 'next/navigation';
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const Usertable = ({ users }) => {
 
@@ -25,7 +26,7 @@ const Usertable = ({ users }) => {
             const data = await res.json();
 
             if (data.modifiedCount > 0) {
-                alert("Role updated successfully");
+                toast.success("Role updated successfully");
                 router.refresh();
             }
         } catch (error) {
@@ -55,7 +56,7 @@ const Usertable = ({ users }) => {
             const data = await res.json();
 
             if (data.deletedCount > 0) {
-                alert("User deleted successfully");
+                toast.success("User deleted successfully");
                 router.refresh();
             }
         } catch (error) {

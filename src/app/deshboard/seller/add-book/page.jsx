@@ -14,6 +14,7 @@ import {
 } from "@heroui/react";
 import { authClient } from "@/lib/auth-client";
 import { redirect } from "next/navigation";
+import { toast } from "react-toastify";
 
 const AddBookPage = () => {
     const { data: session } = authClient.useSession();
@@ -104,12 +105,12 @@ const AddBookPage = () => {
             console.log(data);
 
             if (res.ok) {
-                alert('Company added successfully');
+                toast.success('Company added successfully');
                 redirect('/')
             }
         } catch (error) {
             console.log(error);
-            alert('Something went wrong');
+            // alert('Something went wrong');
         }
     };
 

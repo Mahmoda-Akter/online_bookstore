@@ -1,5 +1,6 @@
 'use client'
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const Manageacton = ({ book }) => {
     const deletebook = async () => {
@@ -13,10 +14,10 @@ const Manageacton = ({ book }) => {
         const data = await res.json();
 
         if (res.ok) {
-            alert("Book deleted successfully");
+            toast.success("Book deleted successfully");
             // window.location.href = "/dashboard/books";
         } else {
-            alert("Delete failed");
+            toast.error("Delete failed");
         }
     };
 
@@ -37,10 +38,10 @@ const Manageacton = ({ book }) => {
         const data = await res.json();
 
         if (res.ok) {
-            alert("Book unpublished");
+            toast.success("Book unpublished");
             window.location.reload();
         } else {
-            alert("Failed to unpublish");
+            toast.error("Failed to unpublish");
         }
     };
     return (

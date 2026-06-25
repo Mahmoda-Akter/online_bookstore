@@ -1,5 +1,6 @@
 'use client'
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const Deletebook = ({book}) => {
 
@@ -14,7 +15,7 @@ const Deletebook = ({book}) => {
         const data = await res.json();
 
         if (res.ok) {
-            alert("Book deleted successfully");
+            toast.success("Book deleted successfully");
             // window.location.href = "/dashboard/books";
         } else {
             alert("Delete failed");

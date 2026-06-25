@@ -1,6 +1,7 @@
 'use client'
 
 import { authClient } from "@/lib/auth-client";
+import { toast } from "react-toastify";
 
 
 
@@ -24,7 +25,7 @@ const Booktable = ({ books }) => {
             const data = await res.json();
 
             if (data.modifiedCount > 0) {
-                alert("Book status updated");
+                toast.success("Book status updated");
                 router.refresh();
             }
         } catch (error) {
@@ -54,7 +55,7 @@ const Booktable = ({ books }) => {
             const data = await res.json();
 
             if (data.deletedCount > 0) {
-                alert("Book deleted successfully");
+                toast.success("Book deleted successfully");
                 router.refresh();
             }
         } catch (error) {

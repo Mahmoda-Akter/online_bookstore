@@ -1,6 +1,7 @@
 'use client'
 import { authClient } from '@/lib/auth-client';
 import React, { useEffect, useState } from 'react';
+import { toast } from 'react-toastify';
 
 const Managedeleverypage = () => {
 
@@ -67,7 +68,7 @@ const Managedeleverypage = () => {
             const data = await res.json();
 
             if (data.success) {
-                alert(`Status updated to ${newStatus}`);
+                toast.success(`Status updated to ${newStatus}`);
                 fetchdata();
             } else {
                 alert("Failed to update status");
