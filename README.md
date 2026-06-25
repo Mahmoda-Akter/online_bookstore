@@ -56,3 +56,22 @@ Role-based access control:
 User
 Librarian
 Admin
+
+
+📊 Dashboard Features
+User Dashboard
+Reading statistics
+Delivery history table
+Reading list gallery
+Reviews management
+Librarian Dashboard
+Book analytics
+Earnings overview
+Delivery management
+Inventory control
+Admin Dashboard
+Total users, books, deliveries, revenue
+Pie chart (books by category)
+Book approval system
+User management
+Transaction monitoring
