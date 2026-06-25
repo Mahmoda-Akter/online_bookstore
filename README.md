@@ -20,5 +20,12 @@ This project demonstrates real-world full-stack concepts like role-based authent
 📚 Librarian
     Add new books (with image upload via imgBB)
     Manage inventory (Edit / Delete books)
-Update delivery status (Pending → Dispatched → Delivered)
-Publish / Unpublish books
+    Update delivery status (Pending → Dispatched → Delivered)
+    Publish / Unpublish books
+
+
+🛠️ Admin
+    Approve or delete books
+    Manage users (change roles / delete users)
+    View all transactions
+    Monitor platform analytics (charts & stats)
