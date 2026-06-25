@@ -35,12 +35,13 @@ const Transactonspage = async () => {
                 </div>
 
                 {/* Table Card */}
-                
+
                 <div className="bg-white rounded-3xl shadow-xl border overflow-x-auto">
 
                     <table className="min-w-full text-sm md:text-base">
 
                         {/* Table Head */}
+                        
                         <thead className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white">
                             <tr>
                                 <th className="p-4 text-left">Transaction ID</th>
