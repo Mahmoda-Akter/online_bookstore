@@ -29,3 +29,20 @@ This project demonstrates real-world full-stack concepts like role-based authent
     Manage users (change roles / delete users)
     View all transactions
     Monitor platform analytics (charts & stats)
+
+
+🧰 Tech Stack
+Frontend
+Next.js (App Router)
+Tailwind CSS
+Recharts / Chart.js
+Better Auth
+Backend
+Node.js
+Express.js
+MongoDB (Atlas)
+JWT Authentication (jose)
+Other Tools
+Stripe (Payment System)
+imgBB API (Image Upload)
+Vercel (Deployment)
