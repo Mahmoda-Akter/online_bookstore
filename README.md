@@ -15,3 +15,10 @@ This project demonstrates real-world full-stack concepts like role-based authent
     View delivery history
     Access personal reading list (Delivered books)
     Submit reviews (only after delivery)
+
+
+📚 Librarian
+    Add new books (with image upload via imgBB)
+    Manage inventory (Edit / Delete books)
+Update delivery status (Pending → Dispatched → Delivered)
+Publish / Unpublish books
