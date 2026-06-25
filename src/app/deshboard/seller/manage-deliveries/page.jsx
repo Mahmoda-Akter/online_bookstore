@@ -84,13 +84,14 @@ const Managedeleverypage = () => {
             <div className="min-h-screen bg-gray-50 p-4 md:p-8">
 
                 {/* Header */}
-                
+
                 <div className="max-w-6xl mx-auto mb-8">
 
                     <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-6 md:p-8 rounded-2xl shadow-lg text-white">
 
                         <h1 className="text-2xl md:text-4xl font-bold tracking-tight">
                             🚚 Manage Deliveries
+                            
                         </h1>
 
                         <p className="mt-2 text-sm md:text-base text-white/80">
