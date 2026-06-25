@@ -35,6 +35,7 @@ const Transactonspage = async () => {
                 </div>
 
                 {/* Table Card */}
+                
                 <div className="bg-white rounded-3xl shadow-xl border overflow-x-auto">
 
                     <table className="min-w-full text-sm md:text-base">
