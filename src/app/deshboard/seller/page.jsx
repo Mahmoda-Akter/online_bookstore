@@ -28,7 +28,7 @@ const Sallerpage = async () => {
                             📊 Seller Dashboard
                         </h1>
                         <p className="text-gray-500 mt-1">
-                            Manage your books, earnings and performanc
+                            Manage your books, earnings and performance
                         </p>
                     </div>
 
